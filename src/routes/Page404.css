@@ -1,0 +1,64 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error-code {
+    font-size: 120px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btn-back {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .error-code {
+        font-size: 80px;
+    }
+
+    .error-message {
+        font-size: 18px;
+    }
+
+    .btn-back {
+        width: 160px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,7 @@
+.product__description__card{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+
+    width: 90%;
+}

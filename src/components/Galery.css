@@ -1,0 +1,23 @@
+.galery{
+    margin: 1rem 0 0 0;
+    display: grid;
+    place-items: center;
+}
+
+.galery__section{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+
+    width: 90%;
+
+    align-content: start;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 426px) {
+    .galery__section{
+        display: grid;
+        flex-flow: column;
+    }
+}

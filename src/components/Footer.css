@@ -1,0 +1,9 @@
+footer{
+    margin: 4rem 0 0 0;
+    background: antiquewhite;
+}
+
+.footer-top,
+.footer-bottom{
+    margin: 2rem 0 0 1rem;
+}
